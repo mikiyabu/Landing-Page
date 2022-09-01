@@ -6,6 +6,8 @@
 
 a {
     text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
 ul {
@@ -74,7 +76,7 @@ button {
 
 .header a {
     font-size: 18px;
-    color: #e5e7ebd8;
+    color: #e5e7eb;
     padding: 16px;
 }
 
@@ -84,10 +86,8 @@ button {
     padding-left: 216px;
     padding-right: 216px;
     padding-bottom: 100px;
-    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
-
     align-items: center;
     gap: 16px;
     flex-shrink: 0;
@@ -111,6 +111,7 @@ button {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    box-shadow: 30px 15px;
 }
 
 .section2 {
@@ -129,9 +130,11 @@ button {
     border: 4px solid #3882F6;
     border-radius: 20px;
     margin-bottom: 10px;
+    box-shadow: 20px 10px #22161f;
 }
 
 .box-text {
+    margin-top: 20px;
     max-width: 160px;
     min-width: 100px;
     text-align: center;
@@ -215,4 +218,18 @@ button {
 
 .section5 .box-text {
     min-width: 250px;
+}
+
+.transition1 {
+    height: 20px;
+    margin-bottom: 50px;
+    background-color: #dbdddf;
+}
+
+.transition2 {
+    height: 20px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    background-color: #dbdddf;
 }
